@@ -5,7 +5,6 @@ project_name=$1
 
 
 conf_file=/etc/supervisor/conf.d/$project_name.conf
-conf_file=~/workspace/test.conf
 
 
 THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
