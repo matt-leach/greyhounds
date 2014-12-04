@@ -7,3 +7,4 @@ local/*
 *.pyc
 *~
 db.sqlite3
+logs/*
