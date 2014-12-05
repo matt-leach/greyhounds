@@ -1,4 +1,4 @@
 greyhounds
 ==========
 
-Code for CUHH Alumni website.
+Code for CUH&H Greyhounds (Alumni) website.
