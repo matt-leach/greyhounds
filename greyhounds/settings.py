@@ -21,11 +21,11 @@ TEMPLATE_DIRS = (BASE_DIR + "/templates/", )
 SECRET_KEY = 'd%hh_v*jlvd%23x13bb(g#4j@8blzap%_ho6a^gvx__@zyw^mv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["greyhounds.familyleach.net", "127.0.0.1"]
 
 
 # Application definition
