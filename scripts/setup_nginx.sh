@@ -19,7 +19,7 @@ echo "}" >> $conf_file
 
 echo "server {" >> $conf_file
 echo "    listen   80;" >> $conf_file
-echo "    server_name $domain;" >> $conf_file
+echo "    server_name $website;" >> $conf_file
 
 echo "    client_max_body_size 4G;" >> $conf_file
 
