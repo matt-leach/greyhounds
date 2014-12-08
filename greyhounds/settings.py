@@ -21,7 +21,7 @@ TEMPLATE_DIRS = (BASE_DIR + "/templates/", )
 SECRET_KEY = 'd%hh_v*jlvd%23x13bb(g#4j@8blzap%_ho6a^gvx__@zyw^mv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 TEMPLATE_DEBUG = True
 
