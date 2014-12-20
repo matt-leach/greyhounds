@@ -7,4 +7,5 @@ urlpatterns = patterns('',
     url(r'^varsity/', 'core.views.just_render', {"template": "core/varsity.html"}, name="varsity"),
     url(r'^cuhh/', 'core.views.just_render', {"template": "core/cuhh.html"}, name="cuhh"),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^news/', include(news.urls)),
 )
