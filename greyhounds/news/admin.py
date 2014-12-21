@@ -1,4 +1,5 @@
 from django.contrib import admin
-from news import News
+import news
 
-admin.site.register(News)
+admin.site.register(news.News)
+admin.site.register(news.Tag)
