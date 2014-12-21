@@ -6,7 +6,7 @@ NEWS
 {% for item in news %}
 
 	<h1>{{item.title}}</h1>
-	<p>{{item.text}}</p>
+	<p>{{item.text|safe}}</p>
 {% endfor %}
 
 {% endblock %}
