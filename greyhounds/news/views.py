@@ -8,7 +8,7 @@ def index(request):
     
     try:
         tags = request.GET["tags"].split(",")
-        news_items = news.News.objects.filter(tags__name__in=tags)
+        news_items = news.News.objects.filter(tags__name__in=tags).distinct()
     except KeyError:
         news_items = news.News.objects.all()
         
