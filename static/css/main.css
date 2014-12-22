@@ -3,6 +3,15 @@ body {
 	margin: 10px 0px 0px 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
 #titleLogo {
 	height: 200px;
 	width: 200px;

@@ -8,7 +8,7 @@ NEWS
 	<h1>{{item.title}}</h1>
 	<span class="tags">
 	{% for tag in item.tags.all %}
-		<a href="{% url 'news:index' %}?tags={{tag.name}}">#{{tag.name}}</a>&nbsp;
+		<a href="{% url 'news:index' %}?tags={{tag.name}}" class="hash_tag">#{{tag.name}}</a>&nbsp;
 	{% endfor %}
 	</span>
 	<p>{{item.text|safe}}</p>
