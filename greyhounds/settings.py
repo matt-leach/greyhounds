@@ -20,10 +20,13 @@ TEMPLATE_DIRS = (BASE_DIR + "/templates/", )
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'd%hh_v*jlvd%23x13bb(g#4j@8blzap%_ho6a^gvx__@zyw^mv'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-TEMPLATE_DEBUG = True
+try:
+    from override_settings import DEBUG
+except:
+    DEBUG = False
+
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ["greyhounds.familyleach.net", "127.0.0.1"]
 

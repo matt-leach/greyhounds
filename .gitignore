@@ -8,3 +8,4 @@ local/*
 *~
 db.sqlite3
 logs/*
+greyhounds/override_settings.py
