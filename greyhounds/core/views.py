@@ -9,9 +9,3 @@ def home(request):
     return render(request, 'base.html', context)
 
 
-
-def just_render(request, template):
-    """
-        View that takes a template name and just renders it
-    """
-    return render(request, template, {})
