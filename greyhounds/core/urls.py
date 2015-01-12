@@ -10,4 +10,5 @@ urlpatterns = patterns('',
     url(r'^cuhh/', TemplateView.as_view(template_name="core/cuhh.html"), name="cuhh"),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^news/', include('news.urls', namespace="news")),
+    url(r'^iom/', TemplateView.as_view(template_name="core/iom.html"), name="iom"),
 )

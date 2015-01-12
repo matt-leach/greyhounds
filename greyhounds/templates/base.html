@@ -19,6 +19,7 @@
 			<a href="{% url 'cuhh' %}">About CUH&H</a>
 			<a href="{% url 'varsity' %}">Varsity History</a>
 			<a href="{% url 'news:index' %}">News</a>
+			<a href="{% url 'iom' %}">IoM Festival</a>
 		</div>
 	</div>
 	<br>
@@ -38,8 +39,8 @@
 	
 	<div class="footer">
 		{% block footer %}
-            <a href="https://twitter.com/CUHandH"><img class="smallImage" src="{{STATIC_URL}}twitter.png" /></a>
-            <a href="https://github.com/matt-leach/greyhounds"><img class="smallImage" src="{{STATIC_URL}}github.png" /></a>
+            <a href="https://twitter.com/CUHandH" target="_blank"><img class="smallImage" src="{{STATIC_URL}}twitter.png" /></a>
+            <a href="https://github.com/matt-leach/greyhounds" target="_blank"><img class="smallImage" src="{{STATIC_URL}}github.png" /></a>
         {% endblock %}
     </div>
 	
